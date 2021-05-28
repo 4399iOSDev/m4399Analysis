@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 #4399分析平台iOS版本SDK
                        DESC
 
-  s.homepage         = 'https://github.com/4399iOSDev/m4399Analysis.git'
+  s.homepage         = 'https://github.com/4399iOSDev/m4399Analysis'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'hecong@4399inc.com' => 'hecong@4399inc.com' }
   s.source           = { :git => 'https://github.com/4399iOSDev/m4399Analysis.git', :tag => s.version.to_s }
