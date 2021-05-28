@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.vendored_frameworks = 'Framework/*.xcframework'
+  s.vendored_frameworks = 'm4399Analysis/Framework/*.xcframework'
   
   s.libraries   =  "z"
   s.framework    = "CoreFoundation", "UIKit", "AdSupport"
