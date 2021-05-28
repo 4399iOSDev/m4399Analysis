@@ -1,0 +1,6 @@
+framework module m4399Analysis {
+  umbrella header "m4399Analysis-umbrella.h"
+
+  export *
+  module * { export * }
+}
