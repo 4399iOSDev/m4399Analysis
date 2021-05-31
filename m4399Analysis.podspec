@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'm4399Analysis'
-  s.version          = '0.3.6'
+  s.version          = '0.3.7'
   s.summary          = '4399分析平台iOS版本SDK'
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.vendored_frameworks = 'm4399Analysis/Framework/*.xcframework'
+  s.vendored_frameworks = 'Framework/*.xcframework'
   
   s.libraries   =  "z"
   s.framework    = "CoreFoundation", "UIKit", "AdSupport"
